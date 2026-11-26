@@ -1,0 +1,39 @@
+# Alissa IA
+
+> Alissa IA est une entreprise technologique gabonaise (Libreville, fondée en février 2024) spécialisée dans la digitalisation des entreprises, l'intelligence artificielle appliquée (chatbots WhatsApp, assistants, solutions sur mesure) et la formation aux outils numériques et à l'IA. Plus de 30 clients accompagnés, plus de 20 projets livrés, plus de 200 personnes formées.
+
+## Pages clés
+- [Accueil](https://alissa-ia.ga/): présentation, chiffres clés, expertises
+- [Expertises](https://alissa-ia.ga/expertises.html): digitalisation, conseil, IA appliquée, formation, chatbots WhatsApp
+- [Produits](https://alissa-ia.ga/produits.html): WAxion AI (agent commercial WhatsApp pour e-commerçants), Alissa School (plateforme éducative IA, collège-lycée)
+- [Réalisations](https://alissa-ia.ga/realisations.html): chatbots FPBG, GGH, Direction Générale de la Statistique ; site CNMAG ; créateur de livres pour enfants IA
+- [À propos](https://alissa-ia.ga/a-propos.html): histoire, valeurs, équipe (fondateur et CEO : Samuel Nkenke Eyebe)
+- [FAQ](https://alissa-ia.ga/faq.html): questions fréquentes
+- [Contact](https://alissa-ia.ga/contact.html)
+- [Blog](https://alissa-ia.ga/blog.html): analyses sur l'IA, la digitalisation et l'éducation en Afrique
+- [La digitalisation grâce à l'IA : une révolution incontournable pour les entreprises africaines](https://alissa-ia.ga/blog/la-digitalisation-grace-a-l-intelligence-artificielle.html): L'IA n'est plus une option : automatisation, WhatsApp intelligent, secteurs transformés et défis. Découvrez comment les entreprises africaines s'en emparent.
+- [Alissa School : pourquoi l'éducation actuelle échoue, et comment l'IA peut réellement corriger le système](https://alissa-ia.ga/blog/alissa-school-pourquoi-l-education-actuelle-echoue.html): Pourquoi l'école classique laisse des élèves derrière, et comment l'IA d'Alissa School personnalise l'apprentissage et détecte les lacunes de chaque élève.
+
+## Contact
+- Téléphone : +241 74 57 00 40 / +241 65 18 26 11
+- E-mail : contact@alissa-ia.ga
+- Adresse : Rénovation Centre Ville, juste derrière l'immeuble Premium, Libreville, Gabon
+
+## Questions fréquentes
+### Qu'est-ce qu'Alissa IA ?
+Alissa IA est une entreprise technologique gabonaise, basée à Libreville, spécialisée dans la digitalisation des entreprises, l'intelligence artificielle appliquée et la formation aux outils numériques. Fondée en février 2024, elle conçoit des sites web, des applications, des chatbots WhatsApp et des solutions IA sur mesure pour les entreprises, institutions et organisations.
+
+### Quels services propose Alissa IA ?
+Alissa IA propose quatre familles de services : la digitalisation d'entreprise (sites web, applications, outils internes, automatisation), l'intégration et le conseil technologique (audit digital, accompagnement au changement), l'intelligence artificielle appliquée (chatbots, assistants, solutions sur mesure) et la formation aux outils numériques et à l'IA.
+
+### Qu'est-ce qu'un chatbot WhatsApp professionnel ?
+Un chatbot WhatsApp professionnel est un assistant automatique qui dialogue avec vos clients ou usagers sur WhatsApp, 24h/24. Il accueille, oriente, prend des rendez-vous, répond aux questions fréquentes et diffuse des informations fiables. Alissa IA le conçoit, le sécurise et le gère entièrement pour vous.
+
+### Un chatbot WhatsApp convient-il à une institution publique ou à une ONG ?
+Oui. Alissa IA a déjà déployé des chatbots pour des institutions comme la FPBG ou la Direction Générale de la Statistique du Gabon. Les cas d'usage typiques sont l'accueil et l'orientation des usagers, la diffusion d'informations fiables, la prise de rendez-vous et le support administratif ou RH.
+
+### Combien coûte un chatbot ou un site web ?
+Le prix dépend du périmètre : nombre de scénarios, intégrations (catalogue, agenda, CRM), volume de conversations, nombre de pages. Après un premier échange gratuit sur votre besoin, Alissa IA remet une proposition claire, structurée et chiffrée, adaptée à votre organisation.
+
+### Alissa IA forme-t-elle les équipes à l'intelligence artificielle ?
+Oui. Plus de 200 personnes ont déjà été formées à l'IA et aux outils numériques. Les formations s'adressent aux dirigeants, aux équipes et aux étudiants : usage pratique de l'IA, productivité et automatisation, IA pour le marketing, le service client et la gestion, éthique et risques.
