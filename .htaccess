@@ -4,7 +4,7 @@ ErrorDocument 404 /404.html
 # Domaine canonique : https://alissaia.com (sans www)
 # - force HTTPS
 # - redirige www.alissaia.com -> alissaia.com
-# - redirige l'ancien domaine alissa-ia.ga (et www) -> alissaia.com en 301
+# - redirige l'ancien domaine alissaia.com (et www) -> alissaia.com en 301
 # ---------------------------------------------------------------------------
 <IfModule mod_rewrite.c>
   RewriteEngine On

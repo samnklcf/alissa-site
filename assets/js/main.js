@@ -129,7 +129,7 @@
       const data = Object.fromEntries(new FormData(form));
       ["name", "email", "phone", "message"].forEach((k) => (data[k] = String(data[k] || "").trim()));
       data.whatsapp = data.whatsapp ? "Oui" : "Non";
-      data.subject = "[Site alissa-ia.ga] " + (data.sujet || "Contact");
+      data.subject = "[Site alissaia.com] " + (data.sujet || "Contact");
       delete data.botcheck;
 
       loading(true); res.classList.add("hidden");

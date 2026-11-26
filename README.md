@@ -1,7 +1,7 @@
 # Site Alissa IA — HTML / CSS / JS + Tailwind (sans framework JS)
 
 - Racine du dépôt : le site prêt à déployer (domaine principal : **https://alissaia.com**)
-- `_redirects` + `netlify.toml` : redirections 301 de l'ancien domaine `alissa-ia.ga` et de `www` vers `alissaia.com` (hébergement Netlify)
+- `_redirects` + `netlify.toml` : redirections 301 de l'ancien domaine `alissaia.com` et de `www` vers `alissaia.com` (hébergement Netlify)
 - `source/` : générateur (`build.py`), config Tailwind, `input.css`
 
 ## Remplacer les images
@@ -27,7 +27,7 @@ Prévisualisation locale : `cd public && python3 -m http.server 8000`
 - Formulaire : Web3Forms (clé dans `build.py` → `B["w3"]`), anti-spam (honeypot), délai max 15 s, messages d'erreur et repli WhatsApp.
 
 ## SEO — points à finaliser côté outils externes
-1. Google Search Console : ajouter la propriété `alissaia.com` (et `alissa-ia.ga` si elle existe déjà, pour suivre la redirection), soumettre `https://alissaia.com/sitemap.xml`.
+1. Google Search Console : ajouter la propriété `alissaia.com` (et `alissaia.com` si elle existe déjà, pour suivre la redirection), soumettre `https://alissaia.com/sitemap.xml`.
 2. Bing Webmaster Tools : même démarche.
 3. Vérifier que `contact@alissaia.com` existe réellement (l'adresse est affichée sur tout le site et dans les données structurées).
 4. Google Business Profile (Libreville) : mettre l'URL `https://alissaia.com` et les mêmes nom/adresse/téléphone que le site.
