@@ -1,6 +1,7 @@
 # Site Alissa IA — HTML / CSS / JS + Tailwind (sans framework JS)
 
-- `public/` : le site prêt à déployer (à envoyer à la racine de alissa-ia.ga)
+- Racine du dépôt : le site prêt à déployer (domaine principal : **https://alissaia.com**)
+- `_redirects` + `netlify.toml` : redirections 301 de l'ancien domaine `alissa-ia.ga` et de `www` vers `alissaia.com` (hébergement Netlify)
 - `source/` : générateur (`build.py`), config Tailwind, `input.css`
 
 ## Remplacer les images
@@ -24,4 +25,13 @@ Prévisualisation locale : `cd public && python3 -m http.server 8000`
 ## Mises à jour
 - Hero de l'accueil : slider 3 slides (Alissa IA, Alissa School, WAxion AI), autoplay 7 s, pause, flèches, swipe, clavier.
 - Formulaire : Web3Forms (clé dans `build.py` → `B["w3"]`), anti-spam (honeypot), délai max 15 s, messages d'erreur et repli WhatsApp.
+
+## SEO — points à finaliser côté outils externes
+1. Google Search Console : ajouter la propriété `alissaia.com` (et `alissa-ia.ga` si elle existe déjà, pour suivre la redirection), soumettre `https://alissaia.com/sitemap.xml`.
+2. Bing Webmaster Tools : même démarche.
+3. Vérifier que `contact@alissaia.com` existe réellement (l'adresse est affichée sur tout le site et dans les données structurées).
+4. Google Business Profile (Libreville) : mettre l'URL `https://alissaia.com` et les mêmes nom/adresse/téléphone que le site.
+5. Confirmer les profils `sameAs` dans le JSON-LD (LinkedIn `alissa-ia`, Facebook `alissaia`) et le compte X `@AlissaIA`.
+6. Les visuels sont des placeholders SVG (`assets/img/ph-*.svg`) : les remplacer par de vraies images (WebP/JPG, 1200×630 pour le partage) — c'est le principal levier restant, Google Images n'indexe pas des placeholders.
+
 # alissa-site

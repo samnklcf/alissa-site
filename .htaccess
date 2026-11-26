@@ -1,6 +1,29 @@
 ErrorDocument 404 /404.html
+
+# ---------------------------------------------------------------------------
+# Domaine canonique : https://alissaia.com (sans www)
+# - force HTTPS
+# - redirige www.alissaia.com -> alissaia.com
+# - redirige l'ancien domaine alissa-ia.ga (et www) -> alissaia.com en 301
+# ---------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://alissaia.com/$1 [L,R=301]
+
+  # www -> sans www
+  RewriteCond %{HTTP_HOST} ^www\.alissaia\.com$ [NC]
+  RewriteRule ^(.*)$ https://alissaia.com/$1 [L,R=301]
+
+  # Ancien domaine -> nouveau domaine (conserve le référencement acquis)
+  RewriteCond %{HTTP_HOST} ^(www\.)?alissa-ia\.ga$ [NC]
+  RewriteRule ^(.*)$ https://alissaia.com/$1 [L,R=301]
+</IfModule>
+
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/ld+json
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/ld+json text/plain
 </IfModule>
 <IfModule mod_expires.c>
   ExpiresActive On
@@ -12,8 +35,15 @@ ErrorDocument 404 /404.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+  # Cache HTML court (le contenu évolue) + HSTS une fois le HTTPS actif
+  <FilesMatch "\.(html|xml|txt|webmanifest)$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
-# Forcer HTTPS (décommenter une fois le certificat actif)
-# RewriteEngine On
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+# Page 404 en UTF-8 explicite (évite les accents cassés sur certaines erreurs)
+AddDefaultCharset UTF-8
