@@ -1,0 +1,15 @@
+# Redirections Netlify — domaine canonique https://alissaia.com
+# (le .htaccess reste fourni pour un hébergement Apache ; sur Netlify c'est ce fichier qui s'applique)
+
+# Ancien domaine -> nouveau domaine (301, conserve le référencement acquis)
+https://alissa-ia.ga/*        https://alissaia.com/:splat        301!
+https://www.alissa-ia.ga/*    https://alissaia.com/:splat        301!
+http://alissa-ia.ga/*         https://alissaia.com/:splat        301!
+http://www.alissa-ia.ga/*     https://alissaia.com/:splat        301!
+
+# www -> sans www
+https://www.alissaia.com/*    https://alissaia.com/:splat        301!
+http://www.alissaia.com/*     https://alissaia.com/:splat        301!
+http://alissaia.com/*         https://alissaia.com/:splat        301!
+
+# Le sous-domaine Alissa School est un site distinct, hors périmètre de ces règles
