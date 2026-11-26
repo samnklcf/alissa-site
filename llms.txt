@@ -29,8 +29,8 @@ Alissa IA propose quatre familles de services : la digitalisation d'entreprise (
 ### Qu'est-ce qu'un agent IA WhatsApp professionnel ?
 Un agent IA WhatsApp professionnel est un assistant conversationnel intelligent qui dialogue avec vos clients ou usagers sur WhatsApp, 24h/24. Il accueille, oriente, prend des rendez-vous, répond aux questions fréquentes et diffuse des informations fiables. Alissa IA le conçoit, le sécurise et le gère entièrement pour vous.
 
-### Quelle différence entre un agent IA et un chatbot ?
-Un chatbot classique suit un scénario préétabli : il reconnaît des mots-clés et propose des réponses figées. Un agent IA comprend une demande formulée librement, la reformule, va chercher l'information dans vos documents ou votre base de données, déclenche une action (prise de rendez-vous, envoi de document, transfert vers un conseiller) et garde le contexte de la conversation. Concrètement, un agent IA résout davantage de demandes sans intervention humaine, tout en restant encadré par vos règles métier.
+### Quelle différence entre un agent IA et un simple automate conversationnel ?
+Un automate conversationnel suit un scénario préétabli : il reconnaît des mots-clés et propose des réponses figées. Un agent IA comprend une demande formulée librement, la reformule, va chercher l'information dans vos documents ou votre base de données, déclenche une action (prise de rendez-vous, envoi de document, transfert vers un conseiller) et garde le contexte de la conversation. Concrètement, un agent IA résout davantage de demandes sans intervention humaine, tout en restant encadré par vos règles métier.
 
 ### Un agent IA WhatsApp convient-il à une institution publique ou à une ONG ?
 Oui. Alissa IA a déjà déployé des agents IA pour des institutions comme la FPBG ou la Direction Générale de la Statistique du Gabon. Les cas d'usage typiques sont l'accueil et l'orientation des usagers, la diffusion d'informations fiables, la prise de rendez-vous et le support administratif ou RH.
